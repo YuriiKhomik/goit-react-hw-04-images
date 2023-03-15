@@ -33,6 +33,7 @@ export function App() {
     };
 
     fetchImages();
+
     return () => {
       abortController.abort();
     };
